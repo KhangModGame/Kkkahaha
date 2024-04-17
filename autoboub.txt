@@ -15,24 +15,24 @@ getgenv().Setting = {
     },
     ["Item"] = {
         ["Melee"] = {["Enable"] = true,
-            ["Z"] = {["Enable"] = true, ["Hold Time"] = 1.5},
-            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.1},
-            ["C"] = {["Enable"] = true, ["Hold Time"] = 0.1}
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.5},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.0},
+            ["C"] = {["Enable"] = true, ["Hold Time"] = 0.0}
         },
         ["Blox Fruit"] = {["Enable"] = false,
-            ["Z"] = {["Enable"] = true, ["Hold Time"] = 1.5},
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.5},
             ["X"] = {["Enable"] = true, ["Hold Time"] = 0},
             ["C"] = {["Enable"] = true, ["Hold Time"] = 0},
             ["V"] = {["Enable"] = true, ["Hold Time"] = 0},
             ["F"] = {["Enable"] = true, ["Hold Time"] = 0}
         },
         ["Sword"] = {["Enable"] = true,
-            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.1},
-            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.1}
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.0},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.0}
         },
         ["Gun"] = {["Enable"] = true,
-            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.1},
-            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.1}
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.0},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.0}
         } 
     } 
 }
@@ -637,7 +637,7 @@ Character.Parent = MainFrame
 TextLabel.Font = Enum.Font.Bodoni
 TextLabel.Text = "Winter Hub Bounty"
 TextLabel.TextColor3 = Color3.fromRGB(228.0000016093254, 255, 207.00000286102295)
-TextLabel.TextSize = 51
+TextLabel.TextSize = 0
 TextLabel.TextTransparency = 0.800000011920929
 TextLabel.TextXAlignment = Enum.TextXAlignment.Left
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
